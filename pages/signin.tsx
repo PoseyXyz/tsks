@@ -23,7 +23,7 @@ function SignIn() {
 
                 <div className="flex justify-center items-center mt-2 gap-6 flex-col">
 
-                <p className="text-[#9b9aa1] text-xl">Don't have an account? <a className="text-white font-bold cursor-pointer">Create Account</a></p>
+                <p className="text-[#9b9aa1] text-xl">{`Don't have an account?`} <a className="text-white font-bold cursor-pointer">Create Account</a></p>
                 <a className="font-bold text-xl cursor-pointer">Forgot Password?</a>
                 </div>
 

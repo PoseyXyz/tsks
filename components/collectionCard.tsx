@@ -1,7 +1,8 @@
 import React from "react";
 import { BsPlusLg } from "react-icons/bs";
+import {collectionCardProps} from '../interfaces/interfaces'
 
-function CollectionCard({name, iconBg, completed_tasks, total_tasks, border, hover}) { 
+function CollectionCard({name, iconBg, completed_tasks, total_tasks, border, hover}:collectionCardProps) { 
  
     return (
         <div className={`bg-[#20212C] flex flex-col gap-4 p-4 rounded-2xl duration-700 cursor-pointer hover:-translate-y-3 ${hover} shadow-2xl border border-transparent`}>
