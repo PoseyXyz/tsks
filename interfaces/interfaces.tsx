@@ -5,5 +5,6 @@ export interface collectionCardProps{
     border:string,
     hover:string,
     completed_tasks:number,
-    total_tasks:number
+    total_tasks:number,
+    icon:any
 }
