@@ -108,8 +108,6 @@ a {
   @apply mt-4
 }
 
-
-
 .form-input {
   @apply border-2 border-[#9B9AA1] text-[#9B9AA1] text-2xl bg-transparent rounded-2xl px-8 py-3;
   
