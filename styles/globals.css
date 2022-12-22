@@ -96,13 +96,19 @@ a {
   @apply border-2 border-[#9B9AA1] text-white hover:border-white duration-500 text-2xl flex justify-center gap-8 items-center rounded-2xl px-8 py-4;
 }
 
-.cta {
+.cta, .plus-btn {
   background: rgb(202,73,207);
   background: linear-gradient(90deg, rgba(202,73,207,1) 0%, rgba(251,137,142,1) 35%, rgba(251,137,142,1) 100%); 
   color: #fff;
-  @apply shadow-2xl mt-4;
+  @apply shadow-2xl ;
   border: none;
 }
+
+.cta{
+  @apply mt-4
+}
+
+
 
 .form-input {
   @apply border-2 border-[#9B9AA1] text-[#9B9AA1] text-2xl bg-transparent rounded-2xl px-8 py-3;
