@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaGoogle } from "react-icons/fa";
+import { signup } from "../interfaces/interfaces";
 
 function SignUp(){
     return(
