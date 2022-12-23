@@ -1,5 +1,4 @@
 import React from "react";
-import { BsPlusLg } from "react-icons/bs";
 import {collectionCardProps} from '../interfaces/interfaces'
 
 function CollectionCard({name, icon, id, iconBg, completed_tasks, total_tasks, border, hover}:collectionCardProps) { 
