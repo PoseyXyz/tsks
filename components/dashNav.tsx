@@ -51,7 +51,7 @@ function DashNav() {
                 </div>
             </nav>
 
-            <nav className="flex gap-8 text-3xl items-center justify-between p-6 fixed md:hidden w-full bottom-0 bg-[#20212C]">
+            <nav className="flex gap-8 text-xl items-center justify-between p-4 fixed md:hidden w-full bottom-0 bg-[#20212C]">
                 <button className="flex gap-3 items-center text-white duration-500">
                     <i><BsFillGrid1X2Fill /></i>
                 </button>
